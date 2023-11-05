@@ -1,0 +1,24 @@
+name: dio_http2_adapter
+version: 2.3.1+1
+
+description: An adapter that combines HTTP/2 and dio. Supports reusing connections, header compression, etc.
+topics:
+  - dio
+  - http2
+  - native
+  - network
+homepage: https://github.com/cfug/dio
+repository: https://github.com/cfug/dio/blob/main/plugins/http2_adapter
+issue_tracker: https://github.com/cfug/dio/issues
+
+environment:
+  sdk: ">=2.15.0 <4.0.0"
+
+dependencies:
+  http2: ^2.0.0
+  dio: ^5.2.0
+
+dev_dependencies:
+  crypto: ^3.0.2
+  lints: any
+  test: ^1.16.4
